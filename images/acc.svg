@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.65013in" height="1.65013in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 162 162"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Arial">
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="A" horiz-adv-x="722"><path d="M718.001 0l-156.166 0 -61.835 163.002 -287.169 0 -59.4984 -163.002 -153.332 0 278.003 716 153.164 0 286.834 -716zm-265.002 284l-99.5016 265.002 -96.6615 -265.002 196.163 0z"/></glyph>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";src:url("#FontID0") format(svg)}
+    .fil3 {fill:none}
+    .fil2 {fill:#A33639}
+    .fil0 {fill:#A33639}
+    .fil1 {fill:white}
+    .fnt0 {font-weight:bold;font-size:62.1076px;font-family:'Arial'}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M81 0c45,0 81,36 81,81 0,45 -36,81 -81,81 -45,0 -81,-36 -81,-81 0,-45 36,-81 81,-81z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M81 0c45,0 81,36 81,81 0,45 -36,81 -81,81 -45,0 -81,-36 -81,-81 0,-45 36,-81 81,-81z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_266432528">
+    <g>
+     <path id="1" class="fil1" d="M83 26l8 0 0 11c12,-1 25,-1 37,3 5,1 9,5 9,10 0,20 0,39 0,59 0,5 -5,9 -9,10 -12,4 -25,5 -37,3l0 14 -8 0c-19,-4 -39,-7 -58,-10l0 -90c19,-3 39,-7 58,-10z"/>
+     <path class="fil2" d="M91 41c11,-2 23,-2 34,2 3,1 8,2 8,6 0,3 -3,4 -6,5 -11,4 -24,5 -36,3l0 -16z"/>
+     <path class="fil2" d="M117 61c6,-1 12,-2 16,-6 0,6 1,11 0,17 -2,2 -6,3 -9,4 -11,3 -22,3 -33,1l0 -16c4,0 9,1 13,1 4,0 9,-1 13,-1l0 0z"/>
+     <path class="fil2" d="M117 81c6,-1 12,-2 16,-5 0,5 1,11 0,16 -2,3 -6,4 -9,5 -11,2 -22,2 -33,1l0 -17c4,1 9,1 13,1 4,0 9,0 13,-1l0 0zm0 21c6,-1 12,-2 16,-6 0,6 1,11 0,16 -4,4 -9,5 -14,6 -5,1 -10,1 -15,1 -4,0 -9,0 -13,-1 0,-5 0,-11 0,-16 4,0 9,1 13,1 4,0 9,-1 13,-1l0 0z"/>
+     <g transform="matrix(1 0.144493 0 1 -791.795 -370.907)">
+      <text x="825" y="352"  class="fil2 fnt0">A</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <path class="fil3" d="M81 0c45,0 81,36 81,81 0,45 -36,81 -81,81 -45,0 -81,-36 -81,-81 0,-45 36,-81 81,-81z"/>
+ </g>
+</svg>

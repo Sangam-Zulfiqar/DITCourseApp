@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X7 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1.65013in" height="1.65013in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 162 162"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil2 {fill:#207245}
+    .fil0 {fill:#207245}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M81 0c45,0 81,36 81,81 0,45 -36,81 -81,81 -45,0 -81,-36 -81,-81 0,-45 36,-81 81,-81z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M81 0c45,0 81,36 81,81 0,45 -36,81 -81,81 -45,0 -81,-36 -81,-81 0,-45 36,-81 81,-81z"/>
+  <g style="clip-path:url(#id0)">
+   <g id="_267026560">
+    <g>
+     <path id="1" class="fil1" d="M83 26l8 0 0 10c13,0 26,0 38,0 3,0 5,0 7,1 1,2 1,5 1,7 0,22 0,44 0,66 0,4 0,8 0,11 -1,3 -4,3 -6,3 -13,0 -27,0 -40,0l0 12 -8 0c-19,-4 -39,-7 -58,-10l0 -90c19,-3 39,-7 58,-10z"/>
+     <polygon class="fil2" points="91,40 133,40 133,120 91,120 91,113 101,113 101,104 91,104 91,99 101,99 101,90 91,90 91,85 101,85 101,76 91,76 91,71 101,71 101,62 91,62 91,57 101,57 101,48 91,48 91,40 "/>
+     <polygon class="fil1" points="106,48 124,48 124,57 106,57 "/>
+     <path class="fil2" d="M63 60c2,-1 5,-1 8,-1 -3,7 -7,14 -10,21 4,7 7,14 11,21 -3,0 -7,0 -10,0 -2,-5 -4,-11 -6,-16 -2,5 -4,10 -6,15 -3,0 -6,0 -9,0 4,-7 7,-13 10,-20 -3,-6 -6,-13 -9,-19 3,0 6,0 9,-1 2,5 4,10 5,15 2,-5 4,-10 7,-15z"/>
+     <path class="fil1" d="M106 62l18 0 0 9 -18 0 0 -9zm0 14l18 0 0 9 -18 0 0 -9zm0 14l18 0 0 9 -18 0 0 -9zm0 14l18 0 0 9 -18 0 0 -9z"/>
+    </g>
+   </g>
+  </g>
+  <path class="fil3" d="M81 0c45,0 81,36 81,81 0,45 -36,81 -81,81 -45,0 -81,-36 -81,-81 0,-45 36,-81 81,-81z"/>
+ </g>
+</svg>

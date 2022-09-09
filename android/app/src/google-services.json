@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925061633280",
+    "project_id": "ditcourseapp",
+    "storage_bucket": "ditcourseapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925061633280:android:171d7a68965823b1c74fe5",
+        "android_client_info": {
+          "package_name": "com.example.dit_courses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925061633280-82e9d4frb02mku34kvuabmdtjjl8ufro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6py68smKdF9spX2oyspKoDZdz89t0e_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925061633280-82e9d4frb02mku34kvuabmdtjjl8ufro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
