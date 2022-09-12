@@ -1,5 +1,5 @@
+//course app
 import 'package:dit_courses/core/core/locator/locator.dart';
-
 import 'package:dit_courses/screens/authentication/provider.dart';
 import 'package:dit_courses/screens/notes_screen/notes_screen.dart';
 import 'package:dit_courses/splash_screen.dart';
