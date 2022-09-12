@@ -40,7 +40,6 @@ class ShortCutKeysScreen extends StatelessWidget {
                         Card2(
                           img: "images/word.png",
                           ontap: () {},
-                         
                           title: 'Ms Word',
                         ),
                         Card2(
