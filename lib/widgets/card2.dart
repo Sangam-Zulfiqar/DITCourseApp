@@ -14,27 +14,31 @@ class Card2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: ontap,
-      child: Card(
-        elevation: 5,
-        child: Padding(
-          padding: EdgeInsets.all(5.0),
-          child: Row(
-            children: [
-              Image.asset(
-                img,
-                height: 50,
-                width: 50,
-              ),
-              SizedBox(
-                width: 20,
-              ),
-              Text(
-                title,
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              ),
-            ],
+    return Material(
+      elevation: 5,
+      color: Colors.white,
+      child: InkWell(
+        onTap: ontap,
+        child: Container(
+          // elevation: 5,
+          child: Padding(
+            padding: EdgeInsets.all(5.0),
+            child: Row(
+              children: [
+                Image.asset(
+                  img,
+                  height: 50,
+                  width: 50,
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                Text(
+                  title,
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
           ),
         ),
       ),

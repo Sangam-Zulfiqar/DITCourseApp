@@ -107,7 +107,7 @@ class NotesScreen extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (context) =>
-                            FullPdfViewerScreen('files/ICT Book.pdf'),
+                            FullPdfViewerScreen('files/ICTBook.pdf'),
                       ),
                     );
                     //});

@@ -26,13 +26,13 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: GetMaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        // home: NotesScreen()
-        home: SplashScreen(),
-      ),
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+          ),
+          home: NotesScreen()
+          // home: SplashScreen(),
+          ),
     );
   }
 }

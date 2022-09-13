@@ -19,10 +19,18 @@ class FullPdfViewerScreen extends StatefulWidget {
 
 class _FullPdfViewerScreenState extends State<FullPdfViewerScreen> {
   String path = "ICTBook.pdf";
+
+  final Completer<PDFViewController> _controller =
+      Completer<PDFViewController>();
+  int? pages = 0;
+  int? currentPage = 0;
+  bool isReady = false;
+  String errorMessage = '';
   @override
   void initState() {
-    fromAsset(widget.pdfPath, 'ICTBook.pdf').then((f) {
+    fromAsset("files/abc.pdf", 'abc.pdf').then((f) {
       setState(() {
+        print("Future Completed with: ${f.path}");
         path = f.path;
       });
     });
@@ -35,13 +43,22 @@ class _FullPdfViewerScreenState extends State<FullPdfViewerScreen> {
     Completer<File> completer = Completer();
 
     try {
+      print('step 0');
       var dir = await getApplicationDocumentsDirectory();
+      print('step 1');
       File file = File("${dir.path}/$filename");
+      print('step 2');
+      print("Asset== ${asset}");
       var data = await rootBundle.load(asset);
+      print('step 3');
       var bytes = data.buffer.asUint8List();
+      print('step 4');
       await file.writeAsBytes(bytes, flush: true);
+      print('step 5');
       completer.complete(file);
+      print('step 6');
     } catch (e) {
+      print("Error@==> $e");
       throw Exception('Error parsing asset file!');
     }
 
@@ -56,21 +73,27 @@ class _FullPdfViewerScreenState extends State<FullPdfViewerScreen> {
       swipeHorizontal: true,
       autoSpacing: false,
       pageFling: false,
-      // onRender: (_pages) {
-      //   setState(() {
-      //     pages = _pages;
-      //     isReady = true;
-      //   });
-      // },
+      defaultPage: 1,
+      onRender: (_pages) {
+        setState(
+          () {
+            print("Render $_pages");
+            pages = _pages;
+            isReady = true;
+          },
+        );
+      },
       onError: (error) {
         print(error.toString());
       },
       onPageError: (page, error) {
+        print("Error in loading pdf");
         print('$page: ${error.toString()}');
       },
-      // onViewCreated: (PDFViewController pdfViewController) {
-      //   _controller.complete(pdfViewController);
-      // },
+      onViewCreated: (PDFViewController pdfViewController) {
+        print("View has been created");
+        _controller.complete(pdfViewController);
+      },
       // onPageChanged: (int page, int total) {
       //   print('page change: $page/$total');
       // },
