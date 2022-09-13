@@ -155,13 +155,7 @@ class LogIn extends StatelessWidget {
                   CustomFlatButton(
                       txt: 'LogIn',
                       OnPress: () {
-                        model.loginUser(model.appUser,
-                            context); //  model.loginUser(context);
-                        // Navigator.pushReplacement(
-                        //     context,
-                        //     MaterialPageRoute(
-                        //       builder: (context) => ProfileScreen(),
-                        //     ));
+                        model.loginUser(model.appUser, context);
                       })
                 ],
               ),

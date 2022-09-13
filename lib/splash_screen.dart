@@ -6,6 +6,7 @@ import 'package:dit_courses/screens/profile_screen/profile_screen.dart';
 import 'package:dit_courses/screens/welcome_screen/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_svg/svg.dart';
 import 'core/core/locator/locator.dart';
 import 'core/core/services/auth_services.dart';
 
@@ -50,21 +51,37 @@ class _SplashScreenState extends State<SplashScreen> {
       print("User email ${_authService.appUser.userEmail}");
       print("isLogin ${_authService.isLogin}");
     }
-
-    // Navigator.push(
-    //     context, MaterialPageRoute(builder: (context) => ProfileScreen()));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: PrimaryColor,
       body: Center(
-        child: Text(
-          "Splash Screen",
-          style: TextStyle(
-              color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Container(
+              child: SvgPicture.asset('images/animatedLogo.svg'),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Text(
+              'Course App',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+                  color: PrimaryColor),
+            )
+          ],
         ),
+        //   child: Text(
+        //     "Splash Screen",
+        //     style: TextStyle(
+        //         color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
+        //   ),
+        // ),
       ),
     );
   }

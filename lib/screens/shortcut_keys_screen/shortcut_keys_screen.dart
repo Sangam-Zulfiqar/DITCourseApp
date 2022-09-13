@@ -5,6 +5,7 @@ import 'package:dit_courses/widgets/custom_stack.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../splash_screen.dart';
+import '../../widgets/custom_appbar_container.dart';
 import '../../widgets/custom_drawer.dart';
 import '../profile_screen/profile_provider.dart';
 
@@ -23,7 +24,7 @@ class ShortCutKeysScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    CustomStack(),
+                    CustomAppBarContainer(),
                     Padding(
                       padding: const EdgeInsets.all(15.0),
                       child: Column(children: [

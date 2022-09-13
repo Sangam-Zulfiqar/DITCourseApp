@@ -2,6 +2,7 @@ import 'package:dit_courses/widgets/custom_drawer.dart';
 import 'package:dit_courses/widgets/notes_screen_custom_card.dart';
 import 'package:flutter/material.dart';
 import '../../constants/colors.dart';
+import '../../widgets/custom_appbar_container.dart';
 import '../../widgets/custom_flat_button.dart';
 import '../../widgets/custom_stack.dart';
 import '1st_semester_screen.dart';
@@ -16,7 +17,7 @@ class SemesterTwoScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CustomStack(),
+              CustomAppBarContainer(),
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: Column(children: [

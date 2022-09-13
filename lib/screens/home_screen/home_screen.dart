@@ -11,78 +11,82 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-          Column(
-            children: [
-              CustomStack(),
-            ],
-          ),
-          Align(
-            alignment: Alignment.topCenter,
-            child: Container(
-              child: SvgPicture.asset('images/animatedLogo.svg'),
+        body: Container(
+      height: MediaQuery.of(context).size.height,
+      width: MediaQuery.of(context).size.width,
+      child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Column(
+              children: [
+                CustomStack(),
+              ],
             ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
-          Padding(
-            padding: EdgeInsets.all(20),
-            child: Material(
-              elevation: 5,
-              color: PrimaryColor,
-              borderRadius: BorderRadius.circular(30),
-              child: MaterialButton(
-                onPressed: () {
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => LogIn(),
-                    ),
-                  );
-                },
-                minWidth: 420,
-                height: 42,
-                child: Text(
-                  "Log-In",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18),
+            Align(
+              alignment: Alignment.topCenter,
+              child: Container(
+                child: SvgPicture.asset('images/animatedLogo.svg'),
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Material(
+                elevation: 5,
+                color: PrimaryColor,
+                borderRadius: BorderRadius.circular(30),
+                child: MaterialButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LogIn(),
+                      ),
+                    );
+                  },
+                  minWidth: 420,
+                  height: 42,
+                  child: Text(
+                    "Log-In",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18),
+                  ),
                 ),
               ),
             ),
-          ),
-          Padding(
-            padding: EdgeInsets.all(20),
-            child: Material(
-              elevation: 5,
-              borderRadius: BorderRadius.circular(30),
-              color: Colors.blueAccent,
-              child: MaterialButton(
-                onPressed: () {
-                  Navigator.pushReplacement(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => SignUpScreen(),
-                    ),
-                  );
-                },
-                minWidth: 420,
-                height: 42,
-                child: Text(
-                  'SignUp',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18),
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Material(
+                elevation: 5,
+                borderRadius: BorderRadius.circular(30),
+                color: Colors.blueAccent,
+                child: MaterialButton(
+                  onPressed: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => SignUpScreen(),
+                      ),
+                    );
+                  },
+                  minWidth: 420,
+                  height: 42,
+                  child: Text(
+                    'SignUp',
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18),
+                  ),
                 ),
               ),
             ),
-          ),
-        ]));
+          ]),
+    ));
   }
 }

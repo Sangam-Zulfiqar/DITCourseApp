@@ -4,9 +4,17 @@ import 'package:dit_courses/widgets/notes_screen_custom_card.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/colors.dart';
+import '../../widgets/custom_appbar_container.dart';
 import '../../widgets/custom_flat_button.dart';
 import '../../widgets/custom_stack.dart';
 
+// Switch(DataCardValue21.Selected.Value,
+// "Assigned", Navigate(Screen3,ScreenTransition.None),
+// "Selection1", Navigate(Screen4,ScreenTransition.None),
+// "Selection2", Navigate(Screen5,ScreenTransition.None),
+// "Selection3", Navigate(Screen6,ScreenTransition.None),
+// Navigate(Screen4,ScreenTransition.None)
+// )
 class SemesterOneScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -17,7 +25,7 @@ class SemesterOneScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              CustomStack(),
+              CustomAppBarContainer(),
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: Column(children: [

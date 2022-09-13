@@ -10,6 +10,7 @@ import 'package:dit_courses/widgets/custom_drawer.dart';
 import 'package:dit_courses/widgets/custom_stack.dart';
 import 'package:flutter/material.dart';
 import '../../widgets/card2.dart';
+import '../../widgets/custom_appbar_container.dart';
 import '../../widgets/notes_screen_custom_card.dart';
 
 String _documentPath = 'files/ICTBook.pdf';
@@ -32,24 +33,10 @@ class NotesScreen extends StatelessWidget {
 
     return Scaffold(
       endDrawer: CustomDrawer(),
-      // appBar: AppBar(
-      //   backgroundColor: Colors.transparent,
-      //   elevation: 0,
-      //   actions: [
-      //     Builder(
-      //         builder: (context) => IconButton(
-      //               onPressed: () {
-      //                 Scaffold.of(context).openEndDrawer();
-      //                 // tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
-      //               },
-      //               icon: Icon(Icons.menu),
-      //             ))
-      //   ],
-      // ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          CustomStack(),
+          CustomAppBarContainer(),
           Padding(
             padding: EdgeInsets.all(10.0),
             child: Column(
